@@ -1,19 +1,53 @@
-/* Remove sombreamento/pílula e define a cor dos links em roxo */
-a.internal,
-a.external,
-.popover-hint,
-article a,
-.page a {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  padding: 0 !important;
-  color: #8a5cf5 !important;
+/* 1. Restaura os títulos e cabeçalhos para a cor padrão do texto */
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.page-title a,
+.article-title {
+  color: var(--dark) !important;
 }
 
-/* Remove qualquer marcação amarela residual */
+[saved-theme="dark"] h1,
+[saved-theme="dark"] h2,
+[saved-theme="dark"] h3,
+[saved-theme="dark"] h4,
+[saved-theme="dark"] h5,
+[saved-theme="dark"] h6,
+[saved-theme="dark"] .page-title,
+[saved-theme="dark"] .page-title a,
+[saved-theme="dark"] .article-title {
+  color: #ebebec !important;
+}
+
+/* 2. Força APENAS os links a ficarem em roxo, sem qualquer sombreamento ou fundo */
+article a,
+.page a,
+a.internal,
+a.external {
+  color: #8a5cf5 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+
+  &:hover {
+    color: #a78bfa !important;
+  }
+}
+
+/* 3. Força as bolinhas/nós do gráfico a ficarem roxas */
+.graph svg circle,
+.graph-outer circle {
+  fill: #8a5cf5 !important;
+  stroke: #7042e0 !important;
+}
+
+/* 4. Remove a marcação amarela de caixas de destaque */
 mark {
+  background: transparent !important;
   background-color: transparent !important;
   color: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }

@@ -37,7 +37,7 @@ Of course, despite the numerous benefits of journaling, there is one problem.
 
 Many people like the *idea* of journaling, but few people stick with the *act* of journaling. It sounds great in theory, but making it a habit is another matter.
 
-This is where we return to Oprah’s story.
+This is where we return to Oprah’s story. [^11]
 
 ## The Challenge of Making Journaling a Habit
 
@@ -116,3 +116,5 @@ What matters is that you make it easy to show up. As Madeleine L’Engle, author
 [^9]: I also like a slight variation on this, which I learned from Shawn Blanc who uses “Highlight of the Day” as his prompt.
 
 [^10]: Quotation from her biography, [Madeleine L’Engle](https://jamesclear.com/book/madeleine-lenge) by Aaron Rosenberg.
+
+[^11]: Todos os dias somos mais de 1000 pessoas a fazer uma mesma nota fiscal.

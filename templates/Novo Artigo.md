@@ -1,10 +1,8 @@
 ---
 title: "{{title}}"
-draft: false
 date: {{date:YYYY-MM-DD}}
 lastmod: {{date:YYYY-MM-DD}}
-topic: "Mestrado"
-stage: seedling
+draft: false
 tags:
   - mestrado
 ---

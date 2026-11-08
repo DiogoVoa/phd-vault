@@ -81,6 +81,8 @@ At the top of each One Line Per Day page is space for a journaling prompt. Here 
 
 Underneath the prompt are 31 lines. One line for each day of the month. This is where you’ll write your one sentence each day.
 
+![[Pasted image 20261108222819.png]]
+
 To start your journaling habit all you have to do is write your prompt for the month and jot down a few words each day. Once the month is complete, you can look back on 31 beautiful journal entries. The entire experience is designed to make journaling so easy that you can’t help but do it each day.
 
 That’s it. You can see a picture of the One Line Per Day section [on this page](https://www.baronfig.com/products/clear-habit-journal).

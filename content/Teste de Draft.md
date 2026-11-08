@@ -1,6 +1,6 @@
 ---
 title: Teste de Draft
-draft: true
+draft: false
 date: 2026-11-08
 lastmod: 2026-11-08
 topic: Mestrado

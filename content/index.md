@@ -17,7 +17,7 @@ As notas aqui evoluem de forma orgânica e interconectada.
 ---
 
 ### 🧭 Navegação
-- **Busca rápida:** pressione `Ctrl + K` para localizar qualquer conceito, autor ou termo.
+- ==**Busca rápida:** pressione `Ctrl + K` para localizar qualquer conceito, autor ou termo.==
 - **Grafo:** no painel lateral direito, veja como as notas e temas se conectam.
 - **Backlinks:** ao final de cada nota, confira quais outros tópicos fazem referência a ela.
 

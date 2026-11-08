@@ -9,12 +9,12 @@ tags:
 
 > [!abstract]- Metadados & Navegação
 > - **Área Macro:** [[Mestrado]]
-> - **Eixo Temático:** [[index|Início]]
+> - **Eixo Temático:** [[content/index|Início]]
 > - **Status:** 🌱 Semente (ideia inicial)
 > - **Data:** 2026-11-08
 
 ## Síntese do Artigo
-Uma breve frase explicando a tese central deste registro.
+Uma breve frase e==xplicando a tese central deste registro.==
 
 ---
 

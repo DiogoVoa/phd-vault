@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: "Diogo | PhD Vault"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  locale: pt-BR
+  baseUrl: diogovoa.github.io/phd-vault
   ignorePatterns:
     - private
     - templates
@@ -26,20 +26,20 @@ configuration:
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
         dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        secondary: "#8a5cf5"
+        tertiary: "#7042e0"
+        highlight: "transparent"
+        textHighlight: "transparent"
       darkMode:
         light: "#161618"
         lightgray: "#393639"
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        secondary: "#8a5cf5"
+        tertiary: "#a78bfa"
+        highlight: "transparent"
+        textHighlight: rgba(192, 173, 230, 0.15)
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -101,10 +101,12 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: false
+    enabled: true
     options:
-      theme: tokyo-night
+      theme: minimal
       mode: both
+  - source: "@quartz-themes/minimal"
+    enabled: true
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
@@ -203,8 +205,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/DiogoVoa/phd-vault
     layout:
       position: footer
       priority: 50

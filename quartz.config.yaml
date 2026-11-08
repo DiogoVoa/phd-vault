@@ -1,43 +1,43 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: "Diogo | PhD Vault"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: DiogoVoa.github.io/phd-vault
+  locale: pt-BR
+  baseUrl: diogovoa.github.io/phd-vault
   ignorePatterns:
     - private
     - templates
     - .obsidian
   theme:
-  typography:
-    header: "Schibsted Grotesk"
-    body: "Source Sans Pro"
-    code: "IBM Plex Mono"
-  colors:
-    lightMode:
-      light: "#faf8f8"
-      lightgray: "#e5e5e5"
-      gray: "#b8b8b8"
-      darkgray: "#4e4e4e"
-      dark: "#2b2b2b"
-      secondary: "#8a5cf5"       # Links e destaque principal (Roxo Obsidian)
-      tertiary: "#a78bfa"        # Hover e destaque secundário
-      highlight: "rgba(138, 92, 245, 0.15)"
-      textHighlight: "#8a5cf522"
-    darkMode:
-      light: "#161618"
-      lightgray: "#2a2a2e"
-      gray: "#646464"
-      darkgray: "#d4d4d4"
-      dark: "#ebebec"
-      secondary: "#8a5cf5"       # Roxo Obsidian no dark mode
-      tertiary: "#a78bfa"
-      highlight: "rgba(138, 92, 245, 0.15)"
-      textHighlight: "#8a5cf533"
+    typography:
+      header: "Schibsted Grotesk"
+      body: "Source Sans Pro"
+      code: "IBM Plex Mono"
+    colors:
+      lightMode:
+        light: "#faf8f8"
+        lightgray: "#e5e5e5"
+        gray: "#b8b8b8"
+        darkgray: "#4e4e4e"
+        dark: "#2b2b2b"
+        secondary: "#8a5cf5"       # Links e destaque roxo Obsidian
+        tertiary: "#a78bfa"        # Hover roxo suave
+        highlight: "rgba(138, 92, 245, 0.15)"
+        textHighlight: "#8a5cf522"
+      darkMode:
+        light: "#161618"
+        lightgray: "#2a2a2e"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#8a5cf5"       # Roxo Obsidian no dark mode
+        tertiary: "#a78bfa"
+        highlight: "rgba(138, 92, 245, 0.15)"
+        textHighlight: "#8a5cf533"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true

@@ -1,14 +1,19 @@
-/* Estilo para links internos: fundo cinzento 5% e texto roxo */
-a.internal {
-  background-color: rgba(128, 128, 128, 0.05) !important;
+/* Remove sombreamento/pílula e define a cor dos links em roxo */
+a.internal,
+a.external,
+.popover-hint,
+article a,
+.page a {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
   color: #8a5cf5 !important;
-  padding: 0.15em 0.35em !important;
-  border-radius: 4px !important;
-  text-decoration: none !important;
-  border: 1px solid rgba(128, 128, 128, 0.1) !important;
+}
 
-  &:hover {
-    background-color: rgba(138, 92, 245, 0.15) !important;
-    color: #7042e0 !important;
-  }
+/* Remove qualquer marcação amarela residual */
+mark {
+  background-color: transparent !important;
+  color: inherit !important;
 }

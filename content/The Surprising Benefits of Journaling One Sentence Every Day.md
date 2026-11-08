@@ -1,9 +1,9 @@
 ---
 title: The Surprising Benefits of Journaling One Sentence Every Day
-date:
-  "{ date:YYYY-MM-DD }":
+date: 2026-11-08
 draft: false
 tags:
+  - mestrado
 ---
 From 1986 to 2011, Oprah Winfrey hosted *The Oprah Winfrey Show*. It was the highest rated talk show of all-time and familiar to nearly anyone who owned a television set in North America at that time.
 

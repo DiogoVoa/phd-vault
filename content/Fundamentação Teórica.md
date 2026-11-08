@@ -21,3 +21,5 @@ Uma breve frase explicando a tese central deste registro.
 ## Desenvolvimento & Argumentação
 
 Escreva seus aprendizados aqui...
+
+[[Ensaios e Rascunhos]]

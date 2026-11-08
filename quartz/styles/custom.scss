@@ -1,13 +1,14 @@
-:root {
-  --accent: #8a5cf5;
-  --color-accent: #8a5cf5;
-  --color-accent-2: #7042e0;
-  --secondary: #8a5cf5;
-  --tertiary: #a78bfa;
-  --highlight: transparent;);
-}
+/* Estilo para links internos: fundo cinzento 5% e texto roxo */
+a.internal {
+  background-color: rgba(128, 128, 128, 0.05) !important;
+  color: #8a5cf5 !important;
+  padding: 0.15em 0.35em !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  border: 1px solid rgba(128, 128, 128, 0.1) !important;
 
-mark {
-  background-color: transparent;
-  color: inherit;
+  &:hover {
+    background-color: rgba(138, 92, 245, 0.15) !important;
+    color: #7042e0 !important;
+  }
 }

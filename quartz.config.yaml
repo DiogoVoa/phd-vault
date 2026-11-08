@@ -111,8 +111,10 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: minimal
       mode: both
+  - source: "@quartz-themes/minimal"
+    enabled: true
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"

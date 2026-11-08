@@ -27,7 +27,7 @@ configuration:
         darkgray: "#4e4e4e"
         dark: "#2b2b2b"
         secondary: "#8a5cf5"
-        tertiary: "#7042e0"
+        tertiary: "#8a5cf5"
         highlight: "transparent"
         textHighlight: "transparent"
       darkMode:
@@ -37,7 +37,7 @@ configuration:
         darkgray: "#d4d4d4"
         dark: "#ebebec"
         secondary: "#8a5cf5"
-        tertiary: "#a78bfa"
+        tertiary: "#8a5cf5"
         highlight: "transparent"
         textHighlight: "rgba(192, 173, 230, 0.15)"
 plugins:
@@ -139,6 +139,30 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        drag: true
+        zoom: true
+        depth: 2
+        scale: 1.1
+        repelForce: 0.5
+        centerForce: 0.3
+        linkDistance: 35
+        fontSize: 0.6
+        opacityScale: 1
+        nodeColor: "#8a5cf5"
+        currentHost: "#a78bfa"
+      globalGraph:
+        drag: true
+        zoom: true
+        depth: -1
+        scale: 0.9
+        repelForce: 0.5
+        centerForce: 0.3
+        linkDistance: 45
+        fontSize: 0.5
+        opacityScale: 1
+        nodeColor: "#8a5cf5"
     layout:
       position: right
       priority: 10
